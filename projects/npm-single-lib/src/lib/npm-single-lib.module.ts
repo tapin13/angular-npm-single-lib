@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { NpmSingleLibComponent } from './npm-single-lib.component';
 
@@ -8,6 +9,7 @@ import { NpmSingleLibComponent } from './npm-single-lib.component';
     NpmSingleLibComponent
   ],
   imports: [
+      CommonModule
   ],
   exports: [
     NpmSingleLibComponent
